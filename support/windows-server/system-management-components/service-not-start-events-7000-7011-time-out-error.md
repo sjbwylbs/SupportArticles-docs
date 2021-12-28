@@ -41,6 +41,9 @@ To work around this problem, modify the registry to increase the default time-ou
 >
 > - This workaround may resolve the problem where the service does not start. However, we recommend that you research this problem to determine whether it is a symptom of another problem.
 > - Increase the number carefully. We recommend you increase the number with a small amount at a time untill the service can start.
+## A windows service startup object configured error.
+
+In the process of developing a Windows service, if the Startup object is not configured with a Windows service instance, it may also cause an error. Set it to the correct Windows service implementation, and it can start normally. 
 
 ## More Information
 
